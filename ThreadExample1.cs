@@ -9,18 +9,19 @@ namespace MultiThreading
     {
         public void test1()
         {
+            Console.WriteLine("test1 method");
+
             for (int i = 1; i <= 20; i++)
             {
-                Console.WriteLine("test1 method");
-                Console.WriteLine(i);
+                                Console.WriteLine(i);
             }
         }
         public static void test2()
         {
-
+            Console.WriteLine("test2 method");
             for (int i = 21; i <= 30; i++)
             {
-                Console.WriteLine("test2 method");
+                
                 Console.WriteLine(i);
             }
         }
