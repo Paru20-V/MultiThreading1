@@ -8,7 +8,7 @@ namespace MultiThreading
         static void Main(string[] args)
         {
             Thread t = Thread.CurrentThread;
-             t.Name=" MainThread";
+             t.Name=" Main Thread";
             Console.WriteLine(t.Name);
         }
     }
