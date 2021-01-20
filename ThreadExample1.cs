@@ -11,6 +11,7 @@ namespace MultiThreading
         {
             for (int i = 1; i <= 20; i++)
             {
+                Console.WriteLine("test1 method");
                 Console.WriteLine(i);
             }
         }
@@ -19,6 +20,7 @@ namespace MultiThreading
 
             for (int i = 21; i <= 30; i++)
             {
+                Console.WriteLine("test2 method");
                 Console.WriteLine(i);
             }
         }
